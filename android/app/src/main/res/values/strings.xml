@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">XR18 Touch Pro</string>
+    <string name="title_activity_main">XR18 Touch Pro</string>
+    <string name="package_name">com.xr18touch.pro</string>
+    <string name="custom_url_scheme">com.xr18touch.pro</string>
+</resources>

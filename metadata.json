@@ -1,0 +1,8 @@
+{
+  "name": "Remix X-Air Touch Pro - Behringer XR18 Controller",
+  "description": "Interface intuitive de mixage et contrôle en temps réel pour Behringer XR18 avec vumètres dynamiques, racks d\u0027effets, scènes et boutons macro d\u0027accès rapide.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

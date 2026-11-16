@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#171717"/>
+      <stop offset="100%" stop-color="#0a0a0a"/>
+    </linearGradient>
+    <linearGradient id="meter" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="65%" stop-color="#eab308"/>
+      <stop offset="100%" stop-color="#ef4444"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="url(#bg)"/>
+  <rect x="24" y="24" width="464" height="464" rx="80" fill="none" stroke="#262626" stroke-width="6"/>
+  <!-- 3 Fader Tracks -->
+  <rect x="116" y="108" width="16" height="260" rx="8" fill="#262626"/>
+  <rect x="216" y="108" width="16" height="260" rx="8" fill="#262626"/>
+  <rect x="316" y="108" width="16" height="260" rx="8" fill="#262626"/>
+  <!-- Fader Caps -->
+  <rect x="92" y="182" width="64" height="40" rx="6" fill="#404040" stroke="#737373" stroke-width="3"/>
+  <rect x="92" y="200" width="64" height="4" fill="#ffffff"/>
+  <rect x="192" y="136" width="64" height="40" rx="6" fill="#f59e0b" stroke="#fbbf24" stroke-width="3"/>
+  <rect x="192" y="154" width="64" height="4" fill="#171717"/>
+  <rect x="292" y="244" width="64" height="40" rx="6" fill="#404040" stroke="#737373" stroke-width="3"/>
+  <rect x="292" y="262" width="64" height="4" fill="#ffffff"/>
+  <!-- Stereo LED Meter -->
+  <rect x="388" y="108" width="24" height="260" rx="6" fill="#171717" stroke="#262626" stroke-width="2"/>
+  <rect x="392" y="148" width="16" height="216" rx="3" fill="url(#meter)"/>
+  <!-- XR18 Label -->
+  <text x="256" y="438" font-family="monospace" font-size="48" font-weight="800" fill="#f59e0b" text-anchor="middle" letter-spacing="4">XR18</text>
+</svg>
